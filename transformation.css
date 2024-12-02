@@ -1,0 +1,22 @@
+h1{
+    background-color: mediumvioletred;
+    color: rgb(132, 0, 255);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+animation: ani 2s ;
+}
+@keyframes ani{
+    0%{
+        transform: skew(-50deg,-90deg);
+        rotate: 100deg;
+    }
+    100%{
+        transform: skew(-100deg,-360deg);
+        rotate: 200deg;
+    }
+}
